@@ -1,0 +1,134 @@
+@media (width > 767px) {
+  
+    body{
+        background-image: none;
+        background: #121725;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .Tablet{
+        display: flex;
+    }
+
+    header{
+        width: 768px;
+        position: relative;
+    }
+
+    .TabletPod{
+        position: absolute;
+        left: 39px;
+        top: 50px;
+    }
+
+    .TabletMan{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .Container{
+        width: 767px;
+        position: absolute;
+    }
+    
+    .Parent{
+       width: 635px;
+       height: 509px;
+       flex-shrink: 0;
+       background: #121725;
+       position: relative;
+       left: 39px;
+       top: 258px;
+       
+    }
+
+    .Text{
+        align-items: start;
+    }
+
+    .Publish{
+        width: 635px;
+        font-size: 48px;
+        line-height: 116.667%;
+        text-transform: uppercase;
+        text-align: left;
+        padding: 0;
+        padding-top: 93px;
+    }
+
+    .Everywhere{
+        display: none;
+    }
+
+    .Everywhere1{
+        display: flex;
+    }
+
+    .Everywhere1{
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+    }
+    
+    .Upload{
+        text-align: left;
+        width: 445px;
+        font-size: 18px;
+        line-height: 155.556%;
+        padding: 0;
+        padding-top: 31px;
+    }
+    
+    .InputandButton{
+        align-items: start;
+        padding-top: 0;
+        padding-top: 40px;
+        
+    }
+
+    .Emailinput{
+        width: 427px;
+        height: 56px;
+    }
+
+  
+
+    button{
+        width: 162px;
+        height: 46px;
+        position: absolute;
+        top: 365px;
+        right: 213px;
+    }
+
+    .Icons{
+        display: none;
+    }
+
+    .Errors{
+        position: absolute;
+        left: 115px;
+        bottom: 65px;
+    }
+
+    .Tableticons{
+        width: 536px;
+        height: 29px;
+        margin-top: 64px;
+    }
+
+    .Tabletdots{
+        width: 232px;
+        height: 104px;
+        position: absolute;
+        left: 30px;
+        top:920px;
+    }
+
+
+
+
+}

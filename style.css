@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --lightgrey:#415a50; 
+    --cyan: #54E6AF;
+    --white: #FFF;
+    --almostwhite: #C2CBE5;
+    --black: #121725;
+    --verydarkblue: #2C344B;
+
+}
+
+body{
+    background-image: url(Assets/Mobile/Backroundman.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: var(--lightgrey); 
+    font-family: 'Chivo';
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.Parent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Publish{
+    padding-top: 57px;
+    width: 327px;
+    color: var(--cyan);
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 26px;
+    font-weight:900;
+    line-height: 146.154%;
+    text-transform: uppercase;
+}
+
+.Everywhere , .Everywhere1{
+    color: var(--white);
+    font-family: 'Chivo';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.Everywhere1{
+    display: none;
+}
+
+.Upload{
+    color: var(--almostwhite);
+    text-align: center;
+    font-family: Chivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+    width: 327px;
+    padding-top: 16px;
+}
+
+.Icons{
+    padding-top: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 23px
+}
+
+.InputandButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 48px;
+}
+
+.Emailinput{
+    border: none;
+    width: 327px;
+    height: 46px;
+    padding-left: 32px;
+    border-radius: 28px;
+    background: var(--verydarkblue);
+    color: white;
+    outline: none;
+}
+
+
+button{
+    width: 326px;
+    height: 46px; 
+    border-radius: 28px;
+    background: var(--cyan);
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+    border:  none;
+    cursor: pointer;
+}
+
+.Request{
+    color: var(--black);
+    font-family: 'Chivo';
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 200%;
+}
+
+.Tablet{
+    display: none;
+}
+
+.Desktop{
+    display: none;
+}
+
+

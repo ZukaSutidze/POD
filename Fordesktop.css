@@ -1,0 +1,111 @@
+@media (width > 1439px) {
+    body{
+        overflow-x:hidden;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    header{
+        width: 1440px;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Mobile{
+        display: none;
+    }
+
+    .Desktop{
+        display: flex;
+    }
+
+    .DesktopMan{
+       position: absolute;
+       top: 130px;
+       right: 0;
+    }
+
+    .DesktopPod{
+        position: absolute;
+        top: 102px;
+        left: 165px;
+    }
+
+    .Container{
+        width: 1440px;
+    }
+    
+    .Parent{
+        width: 723px;
+        height: 509px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 261px;
+        left: 165px;
+    }
+
+    
+
+    .Everywhere{
+        display: flex;
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .Everywhere1{
+        display: none;
+    }
+
+    .Publish{
+        width: 665px;
+        font-size: 52px;
+        line-height: 119.231%;
+        padding: 0;
+    }
+
+    .Upload{
+        padding: 0;
+        padding-top: 24px;
+        width: 445px;
+        font-size: 18px;
+        line-height: 155.556%;
+    }
+
+    .Input{
+        width: 427px;
+        height: 56px;
+    }
+
+    button{
+        top: 367px;
+        right: 301px
+    }
+
+    .Errors{
+        left: 30px;
+    }
+
+    button:hover{
+        background: #B3FFE2;
+        box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+        transition: all 0.3s ;
+    }
+
+    .DesktopIcons{
+       position: absolute;
+       bottom: 0;
+       width: 536px;
+       height: 29px;
+       
+    }
+
+    .Desktopdots{
+        position: absolute;
+        top: 718px;
+        left: 1208px;
+        padding-bottom: 78px;
+    }
+
+}
